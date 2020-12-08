@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Car rental project</string>
+    <string name="logo_name">Car Rental</string>
+    <string name="app_heading">An Easy way to rent a car</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in"> Sign In</string>
+    <string name="create_account">Create\nAccount</string>
+
+    //signup
+    <string name="welco">Welcome</string>
+    <string name="go">Go</string>
+    <string name="back">Already have an account? Sign In</string>
+    <string name="fullname">Full Name</string>
+    <string name="phonen">Phone Number</string>
+    <string name="natid">National ID</string>
+    <string name="passw">Password</string>
+</resources>

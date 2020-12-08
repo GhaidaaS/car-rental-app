@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>activity_notifaction_done.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #080808; font-style: italic;}
+.s1 { color: #174ad4;}
+.s2 { color: #080808;}
+.s3 { color: #067d17;}
+.s4 { color: #0033b3;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_notifaction_done.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s3">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s3">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s2">&lt;</span><span class="s4">RelativeLayout </span><span class="s1">xmlns:android</span><span class="s3">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s3">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s3">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s3">=&quot;match_parent&quot;</span>
+    <span class="s1">tools:context</span><span class="s3">=&quot;.notifactionDone&quot;</span><span class="s2">&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">ImageView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/image&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;200dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;200dp&quot;</span>
+        <span class="s1">android:layout_alignParentTop</span><span class="s3">=&quot;true&quot;</span>
+        <span class="s1">android:layout_centerHorizontal</span><span class="s3">=&quot;true&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;97dp&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/carName1&quot;</span>
+        <span class="s1">style</span><span class="s3">=&quot;@style/TextAppearance.AppCompat.Title&quot;</span>
+
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;283dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;56dp&quot;</span>
+        <span class="s1">android:layout_alignParentTop</span><span class="s3">=&quot;true&quot;</span>
+        <span class="s1">android:layout_centerInParent</span><span class="s3">=&quot;true&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;296dp&quot;</span>
+        <span class="s1">android:layout_below</span><span class="s3">=&quot;@id/image&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;name&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;20sp&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s3">=&quot;bold&quot;</span>
+        <span class="s1">android:typeface</span><span class="s3">=&quot;normal&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/carType1&quot;</span>
+        <span class="s1">style</span><span class="s3">=&quot;@style/TextAppearance.AppCompat.SearchResult.Subtitle&quot;</span>
+
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;180dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;39dp&quot;</span>
+        <span class="s1">android:layout_alignParentStart</span><span class="s3">=&quot;true&quot;</span>
+        <span class="s1">android:layout_alignParentLeft</span><span class="s3">=&quot;true&quot;</span>
+        <span class="s1">android:layout_alignParentBottom</span><span class="s3">=&quot;true&quot;</span>
+        <span class="s1">android:layout_centerInParent</span><span class="s3">=&quot;true&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;114dp&quot;</span>
+        <span class="s1">android:layout_marginLeft</span><span class="s3">=&quot;114dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;340dp&quot;</span>
+        <span class="s1">android:layout_below</span><span class="s3">=&quot;@id/carName1&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;Type&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;18sp&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s3">=&quot;bold&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/carPrice1&quot;</span>
+        <span class="s1">style</span><span class="s3">=&quot;@style/TextAppearance.AppCompat.SearchResult.Subtitle&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;70dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;30dp&quot;</span>
+        <span class="s1">android:layout_alignParentBottom</span><span class="s3">=&quot;true&quot;</span>
+        <span class="s1">android:layout_centerInParent</span><span class="s3">=&quot;true&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;310dp&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;Price&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;14sp&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s3">=&quot;bold&quot; </span><span class="s2">/&gt;</span>
+
+    <span class="s2">&lt;</span><span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/Done&quot;</span>
+        <span class="s1">style</span><span class="s3">=&quot;@style/TextAppearance.AppCompat.SearchResult.Subtitle&quot;</span>
+
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;149dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;75dp&quot;</span>
+        <span class="s1">android:layout_alignParentEnd</span><span class="s3">=&quot;true&quot;</span>
+        <span class="s1">android:layout_alignParentRight</span><span class="s3">=&quot;true&quot;</span>
+        <span class="s1">android:layout_alignParentBottom</span><span class="s3">=&quot;true&quot;</span>
+        <span class="s1">android:layout_centerHorizontal</span><span class="s3">=&quot;true&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s3">=&quot;131dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s3">=&quot;131dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;182dp&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;Done&quot;</span>
+        <span class="s1">android:textColor</span><span class="s3">=&quot;#4CAF50&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;24sp&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s3">=&quot;bold&quot; </span><span class="s2">/&gt;</span>
+<span class="s2">&lt;/</span><span class="s4">RelativeLayout</span><span class="s2">&gt;</span></pre>
+</body>
+</html>
